@@ -1,4 +1,5 @@
-import {combineReducer} from 'redux'
+import {combineReducers} from 'redux'
+
 export const songReducer=()=>{
     return[
             {title:'aqkjbsbfj',duration:3.06},
@@ -15,7 +16,7 @@ export const selectedSongReducer=(selectedSong=null,action)=>{
     return selectedSong
 }
 
-export default combineReducer({
+export default combineReducers({
     songs: songReducer,
     selectedSong: selectedSongReducer
 })
