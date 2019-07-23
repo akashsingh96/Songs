@@ -1,9 +1,11 @@
 import React from 'react'
-import {selectSong} from '../actions'
+import SongList from './SongList'
 class App extends React.Component{
     render(){
         return(
-            <div>App</div>
+            <div>
+                <SongList/>
+            </div>
         )
     }
 }
