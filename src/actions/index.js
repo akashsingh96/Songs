@@ -1,5 +1,5 @@
 //Action Creator
-export const selectSong=()=>{
+export const selectSong=(song)=>{
     //returns an action
     return(
         {
